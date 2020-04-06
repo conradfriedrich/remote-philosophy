@@ -1,0 +1,45 @@
+#+TITLE: Video conferencing and /Digital Learning/ at the LMU and the MCMP
+
+These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy remotely. Because needs vary, I tried to summarize the comments under a number of different /use-cases/. Feel free to contact me for changes and additions at (conradfriedrich at posteo dot net).
+
+* Scenario 1: Video call with colleagues / collaborators
+Recommendation: Jitsi Meet
+https://meet.lrz.de
+
+- Free and open source (FOSS) software.
+- Hosted by the LRZ (IT department of the LMU) in Germany. 
+- No setup required. 
+- No account required (except host).
+- Runs directly in the browser (Chrome, Firefox), additionally iOS and Android apps.
+- Video/audio conferencing, screen sharing, no whiteboard.
+- Moderating: muting users, 'raising hand' feature, chat.
+- Security: passwords for session (has to be activated manually), no end-to-end encryption.
+- Easily shareable URLs consisting of four random words.
+- No scheduling 
+
+Questions
+- Can the meeting be started with participant's video switched off?
+
+* Scenario 2: Workshop / Colloquia style presentation with Q&A
+Recommendation: Zoom meetings
+
+- Proprietary software.
+- Server location unrestricted.
+- Requires installation of App (Windows, Mac, Linux, iOS, Android) or browser-extension.
+- No Account required (except host).
+- Video/audio conferencing, screen sharing, whiteboard.
+- Moderating: mutings users, chat.
+- Security: passwords by default, waiting room for new participants to prevent 'zoombombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
+- Scheduling of events
+
+* Scenario 3: Seminar / Classrooms style teacher/student situations
+Recommendation: Zoom meetings or Zoom webinars.
+
+
+* Scenario 4: Lectures for potentially hundreds of listeners
+
+* FAQ
+- What are the limits on pariticpants?
+- Why these and not alternatives? Google Meet, Skype etc.
+  - The LMU IT has expressed concerns with Skype and Facetime for privacy reasons.
+  - Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! AHAHAHAHAHAHAHAHA
