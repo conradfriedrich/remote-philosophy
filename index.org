@@ -1,11 +1,14 @@
-#+TITLE: Video conferencing and /Digital Learning/ at the LMU and the MCMP
+#+TITLE: Video conferencing and Remote Learning at the MCMP
+#+AUTHOR: Conrad Friedrich
 
-These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy remotely. Because needs vary, I tried to summarize the comments under a number of different /use-cases/. Feel free to contact me for changes and additions at (conradfriedrich at posteo dot net).
+These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy remotely. Because needs vary, I tried to summarize the comments under a number of different use-cases. Feel free to contact me for changes and additions at (conrad.friedrich at lmu dot de)[fn:1].
 
-* Scenario 1: Video call with colleagues / collaborators
+* Video call 
 Recommendation: Jitsi Meet
 https://meet.lrz.de
+Recommended (by LMU IT) number of participants up to 15 
 
+** Features
 - Free and open source (FOSS) software.
 - Hosted by the LRZ (IT department of the LMU) in Germany. 
 - No setup required. 
@@ -17,29 +20,78 @@ https://meet.lrz.de
 - Easily shareable URLs consisting of four random words.
 - No scheduling 
 
-Questions
+** TODO Questions
 - Can the meeting be started with participant's video switched off?
 
-* Scenario 2: Workshop / Colloquia style presentation with Q&A
+* Workshop / Colloquia 
 Recommendation: Zoom meetings
 
+https://lmu-munich.zoom.us/
+
+Up to 300 participants
+
+Regulations apply.[fn:2]
+
+** Features
+- Free through LMU (or a private account up to 100 participants).
 - Proprietary software.
 - Server location unrestricted.
 - Requires installation of App (Windows, Mac, Linux, iOS, Android) or browser-extension.
 - No Account required (except host).
 - Video/audio conferencing, screen sharing, whiteboard.
 - Moderating: mutings users, chat.
-- Security: passwords by default, waiting room for new participants to prevent 'zoombombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
+- Security: passwords for meetings, waiting room for new participants to prevent 'zoom bombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
 - Scheduling of events
 
-* Scenario 3: Seminar / Classrooms style teacher/student situations
+General Recommendations:
+- Always set a password for your meeting! Share the password through external channels (like mail).
+The LMU IT in addition recommends the following settings for meetings:[fn:3]
+- No file transfer
+- No feedback
+- Allow virtual background
+
+* Seminar / Classroom
 Recommendation: Zoom meetings or Zoom webinars.
 
+https://lmu-munich.zoom.us/
 
-* Scenario 4: Lectures for potentially hundreds of listeners
+Up to 300 participants
+
+** Features (meeting)
+Just as described above.
+
+As in the case of a presentation, the classroom works well as a zoom meeting, however, depending on the number of participants, a bit more features might be helpful, to avoid disturbances during the class. In particular, you can disable participants to share their screen, or share video or audio at all. Communication can proceed through the chat function or after  
+** Features (webinars)
+- Quite expensive, only limited licenses through LMU. If we have need for it, we can apply for it at the LMU IT.
+- More geared towards teacher-centered teaching than meetings.
+- Moderating: muting users, chat, 'raising hand', only selected participants ('panelists') can share screen, video. Everyone can share audio, if allowed. Host and moderator can be distinct.
+
+* Lectures
+Recommendation: VideoOnline or LMUCast
+
+https://videoonline.edu.lmu.de, https://cast.itunes.uni-muenchen.de/#/home
+
+Here, lectures are prerecorded, and the students can follow them at home, with additional interactions through message boards etc. The LMU offers an optional service to film the lectures in a lecture hall. If there is any need for this type of teaching, I'm happy to assist in coordinating with the LMU.
 
 * FAQ
-- What are the limits on pariticpants?
-- Why these and not alternatives? Google Meet, Skype etc.
-  - The LMU IT has expressed concerns with Skype and Facetime for privacy reasons.
-  - Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! AHAHAHAHAHAHAHAHA
+** Why these and not alternatives? Google Meet, Skype etc.
+The LMU IT has expressed but did not specify concerns with Skype and Facetime for privacy reasons.[fn:4] The wording makes it sound like the use of these systems for teaching is prohibited. I wonder what makes Zoom a better tool than Skype or Facetime, privacy-wise.
+
+Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! lol.
+** Aren't there security concerns with Zoom?
+There are, and it's important to stay on top of things. At the moment, I think as long as some precautions are met (like setting a password for your meeting), the benefits outweigh the risks involved. For a review, see [[https://www.cs.columbia.edu/~smb/blog/2020-04/2020-04-06.html][Steven Bellovin (Columbia) write about this]]. See [[https://blogs.harvard.edu/doc/2020/03/27/zoom][Doc Searls]] for a critical stance on some of Zoom's privacy issues. 
+
+* Notes
+
+* TODO Webinars vs meetings features
+* TODO describe the tablet and how to install on MacOs
+
+* Footnotes
+
+[fn:1] Or for the technically minded, post a pull request for this repository.
+
+[fn:2] https://www.it-servicedesk.uni-muenchen.de/it-angebote/zoom/nutzung_datenschutz/index.html
+
+[fn:3] https://www.itg.uni-muenchen.de/service/zoom/index.html
+
+[fn:4] https://www.itg.uni-muenchen.de/service/zoom/index.html
