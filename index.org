@@ -27,7 +27,6 @@ Recommended (by LMU IT) number of participants up to 15
 - Mute yourself with ~M~ and unmute temporarily by holding ~SPACE~.
 - Set a password! Using the browser on main screen click the small (i) in the button right and 'add password'.
 
-
 * Workshop / Colloquia 
 Recommendation: Zoom meetings
 
