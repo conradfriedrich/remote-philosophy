@@ -1,7 +1,7 @@
 #+TITLE: Video conferencing and Remote Learning at the MCMP
 #+AUTHOR: Conrad Friedrich
 
-These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy and in particular teaching remotely. Feel free to contact me with questions or for changes and additions at (conrad.friedrich at lmu dot de)[fn:1]. These comments are work-in-progress.
+These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy and to teach remotely. These comments are very much work in progress. We're thankful for questions or changes and additions. Contact: (conrad.friedrich at lmu dot de)[fn:1]. 
 
 The LMU has approved of some conferencing software described below but *disallowed the use of Skype, Facetime* and similar for teaching and official communication.[fn:2]
 
@@ -17,10 +17,11 @@ Regulations apply.[fn:3]
 For almost all use cases, we recommend using Zoom meetings. It promises to be reliable, easy-to-use, and to have enough features to accommodate most academic needs. Using a one-stop solution comes with the additional benefit that e.g. students only have be familiar with one software package in order to take part in the classes. 
 
 To start using Zoom, follow the link above and login with your lmu credentials. You'll be able to schedule and start meetings as well as change your settings there. The Zoom account through LMU has a couple of advantages over the free 'basic' Zoom account. 
+
 ** TODO Workout advantages of LMU account.
 
 ** Using Zoom: Example
-Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software. In a Zoom meeting, choose 'Share Screen' and choose your presentation software in the following dialogue (for example Preview for slides in pdf format on macOS). Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it has it (e.g. Preview for macOS offers annotations). With a mouse, this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~ at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help.
+Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software. In a Zoom meeting, choose 'Share Screen' and choose your presentation software in the following dialogue (for example Preview for slides in pdf format on macOS). Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it has it (e.g. Preview for macOS offers annotations). With a mouse, this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~ at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help. It's probably a good idea to familiarize yourself with these features a bit before starting your class.
 
 ** Features
 - Free through LMU.
@@ -42,18 +43,31 @@ The LMU IT in addition recommends the following settings for meetings:[fn:3]
 - Deactivate participant feedback function 
 - Allow virtual background
 
-* Lectures
-Recommendation: VideoOnline or LMUCast
+* For Lectures
+Recommendation: LMUCast
 
-https://videoonline.edu.lmu.de, https://cast.itunes.uni-muenchen.de/#/home
+https://cast.itunes.uni-muenchen.de/
 
-Here, lectures are prerecorded, and the students can follow them at home, with additional interactions through message boards etc. The LMU offers an optional service to film the lectures in a lecture hall. If there is any need for this type of teaching, I'm happy to assist in coordinating with the LMU.
+If you plan to do a larger lecture, the general plan is to prerecord them and the students then follow the lecture at home with additional interactions through message boards etc. The LMU offers an optional service to film the lectures in a lecture hall. If there is any need for this type of teaching, we're happy to assist in coordinating with the LMU.
 
 * FAQ
-** Why these and not alternatives? Google Meet, Skype etc.
-The LMU IT has expressed but did not specify concerns with Skype and Facetime for privacy reasons.[fn:2] The wording makes it sound like the use of these systems for teaching is prohibited. I wonder what makes Zoom a better tool than Skype or Facetime, privacy-wise.
+** Why Zoom and not alternatives? Google Meet, Skype etc.
+The LMU IT has expressed but did not specify concerns with Skype and Facetime for privacy reasons.[fn:2] 
 
-Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! lol.
+| Product         | LMU's stance on it for use in remote teaching |
+|-----------------+-----------------------------------------------|
+| Jitsi Meet      | Recommended                                   |
+| Zoom            | Recommended                                   |
+| Adobe Connect   | Recommended[fn:4]                             |
+| Microsoft Teams | Currently in evaluation                       |
+| Skype           | Explicitly Disallowed                         |
+| Facetime        | Explicitly Disallowed                         |
+| Cisco WebEx     | None so far                                   |
+| GoToMeeting     | None so far                                   |
+| Google Hangouts | None so far                                   |
+
+** TODO More information on the LMU's stance on different products.
+
 ** Aren't there security concerns with Zoom?
 There are, and it's important to stay on top of things. At the moment, long as some precautions are met (like setting a password for your meeting), the benefits outweigh the risks involved. For a review, see [[https://www.cs.columbia.edu/~smb/blog/2020-04/2020-04-06.html][Steven Bellovin (Columbia) write about this]]. See [[https://blogs.harvard.edu/doc/2020/03/27/zoom][Doc Searls]] for a critical stance on some of Zoom's privacy issues. 
 ** What's with Zoom webinars?
@@ -94,3 +108,4 @@ Recommended (by LMU IT) number of participants up to 15
 
 [fn:3] https://www.it-servicedesk.uni-muenchen.de/it-angebote/zoom/nutzung_datenschutz/index.html
 
+[fn:4] ~Adobe Connect~ requires ~Adobe Flash Player~, which is outdated.
