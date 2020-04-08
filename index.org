@@ -5,7 +5,9 @@ These comments are hopefully helpful to those people at the MCMP planning to do 
 
 * Video call 
 Recommendation: Jitsi Meet
+
 https://meet.lrz.de
+
 Recommended (by LMU IT) number of participants up to 15 
 
 ** Features
@@ -16,12 +18,15 @@ Recommended (by LMU IT) number of participants up to 15
 - Runs directly in the browser (Chrome, Firefox), additionally iOS and Android apps.
 - Video/audio conferencing, screen sharing, no whiteboard.
 - Moderating: muting users, 'raising hand' feature, chat.
-- Security: passwords for session (has to be activated manually), no end-to-end encryption.
+- Security: passwords for session (has to be activated manually, slightly hidden), no end-to-end encryption.
 - Easily shareable URLs consisting of four random words.
-- No scheduling 
+- No scheduling
+- New participants can be set to muted and without video upon joining.
 
-** TODO Questions
-- Can the meeting be started with participant's video switched off?
+** Recommendations
+- Mute yourself with ~M~ and unmute temporarily by holding ~SPACE~.
+- Set a password! Using the browser on main screen click the small (i) in the button right and 'add password'.
+
 
 * Workshop / Colloquia 
 Recommendation: Zoom meetings
@@ -43,12 +48,15 @@ Regulations apply.[fn:2]
 - Security: passwords for meetings, waiting room for new participants to prevent 'zoom bombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
 - Scheduling of events
 
-General Recommendations:
+** Recommendations:
 - Always set a password for your meeting! Share the password through external channels (like mail).
 The LMU IT in addition recommends the following settings for meetings:[fn:3]
-- No file transfer
-- No feedback
+- Deactivate file transfer
+- Deactivate participant feedback function 
 - Allow virtual background
+
+** Using Zoom's whiteboard function with a tablet
+
 
 * Seminar / Classroom
 Recommendation: Zoom meetings or Zoom webinars.
@@ -81,10 +89,8 @@ Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! lol.
 ** Aren't there security concerns with Zoom?
 There are, and it's important to stay on top of things. At the moment, I think as long as some precautions are met (like setting a password for your meeting), the benefits outweigh the risks involved. For a review, see [[https://www.cs.columbia.edu/~smb/blog/2020-04/2020-04-06.html][Steven Bellovin (Columbia) write about this]]. See [[https://blogs.harvard.edu/doc/2020/03/27/zoom][Doc Searls]] for a critical stance on some of Zoom's privacy issues. 
 
-* Notes
-
-* TODO Webinars vs meetings features
-* TODO describe the tablet and how to install on MacOs
+* TODO Describe the graphical tablet and how to install on macOS 
+* TODO Evaluate need for webinars 
 
 * Footnotes
 
