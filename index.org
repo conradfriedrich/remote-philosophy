@@ -1,10 +1,69 @@
 #+TITLE: Video conferencing and Remote Learning at the MCMP
 #+AUTHOR: Conrad Friedrich
 
-These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy remotely. Because needs vary, I tried to summarize the comments under a number of different use-cases. Feel free to contact me for changes and additions at (conrad.friedrich at lmu dot de)[fn:1].
+These comments are hopefully helpful to those people at the MCMP planning to do some academic philosophy and in particular teaching remotely. Feel free to contact me with questions or for changes and additions at (conrad.friedrich at lmu dot de)[fn:1]. These comments are work-in-progress.
 
-* Video call 
-Recommendation: Jitsi Meet
+The LMU has approved of some conferencing software described below but *disallowed the use of Skype, Facetime* and similar for teaching and official communication.[fn:2]
+
+* For Video Calls, Workshops, Colloquia, Seminars, Classrooms, ...
+Recommendation: Zoom meetings
+
+https://lmu-munich.zoom.us/
+
+Up to 300 participants
+
+Regulations apply.[fn:3]
+
+For almost all use cases, we recommend using Zoom meetings. It promises to be reliable, easy-to-use, and to have enough features to accommodate most academic needs. Using a one-stop solution comes with the additional benefit that e.g. students only have be familiar with one software package in order to take part in the classes. 
+
+To start using Zoom, follow the link above and login with your lmu credentials. You'll be able to schedule and start meetings as well as change your settings there. The Zoom account through LMU has a couple of advantages over the free 'basic' Zoom account. 
+** TODO Workout advantages of LMU account.
+
+** Using Zoom: Example
+Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software. In a Zoom meeting, choose 'Share Screen' and choose your presentation software in the following dialogue (for example Preview for slides in pdf format on macOS). Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it has it (e.g. Preview for macOS offers annotations). With a mouse, this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~ at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help.
+
+** Features
+- Free through LMU.
+- Requires installation of App (Windows, Mac, Linux, iOS, Android) or browser-extension.
+- No Account required (except host).
+- Scheduling of events
+- Video/audio conferencing, screen sharing (e.g. for powerpoints), whiteboard.
+- Moderating: mutings users, 'raising hand' feature, chat.
+- Security: passwords for meetings, waiting room for new participants to prevent 'zoom bombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
+- Server location undisclosed
+- Proprietary software.
+
+** Recommendations:
+- Since Zoom is in high demand at the moment, users might receive so-called phishing emails that might look official but contain links to fraudulent websites. Always verify the domain ends in ~zoom.us~ when you enter your credentials on a website.
+- Always set a password for your meeting! Share the password through external channels (like mail).
+- To increase performance and save bandwidth, consider deactivating video and audio streams of participants currently not talking.
+The LMU IT in addition recommends the following settings for meetings:[fn:3]
+- Deactivate file transfer
+- Deactivate participant feedback function 
+- Allow virtual background
+
+* Lectures
+Recommendation: VideoOnline or LMUCast
+
+https://videoonline.edu.lmu.de, https://cast.itunes.uni-muenchen.de/#/home
+
+Here, lectures are prerecorded, and the students can follow them at home, with additional interactions through message boards etc. The LMU offers an optional service to film the lectures in a lecture hall. If there is any need for this type of teaching, I'm happy to assist in coordinating with the LMU.
+
+* FAQ
+** Why these and not alternatives? Google Meet, Skype etc.
+The LMU IT has expressed but did not specify concerns with Skype and Facetime for privacy reasons.[fn:2] The wording makes it sound like the use of these systems for teaching is prohibited. I wonder what makes Zoom a better tool than Skype or Facetime, privacy-wise.
+
+Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! lol.
+** Aren't there security concerns with Zoom?
+There are, and it's important to stay on top of things. At the moment, long as some precautions are met (like setting a password for your meeting), the benefits outweigh the risks involved. For a review, see [[https://www.cs.columbia.edu/~smb/blog/2020-04/2020-04-06.html][Steven Bellovin (Columbia) write about this]]. See [[https://blogs.harvard.edu/doc/2020/03/27/zoom][Doc Searls]] for a critical stance on some of Zoom's privacy issues. 
+** What's with Zoom webinars?
+- Quite expensive, only limited licenses through LMU. If we have need for it, we can apply for it at the LMU IT.
+- More geared towards teacher-centered teaching than meetings.
+- Has more features to moderate users if there are lots of disturbances.
+
+* Alternative for Video Calls: Jitsi Meet
+
+If you put particular emphasis on data protection and privacy, the LMU also recommends an alternative tool called Jitsi Meet.
 
 https://meet.lrz.de
 
@@ -24,79 +83,14 @@ Recommended (by LMU IT) number of participants up to 15
 - New participants can be set to muted and without video upon joining.
 
 ** Recommendations
-- Mute yourself with ~M~ and unmute temporarily by holding ~SPACE~.
+- Mute yourself with ~M~ and unmute temporarily by holding ~SPACE~. (Push to talk - decreases noise levels during the call)
 - Set a password! Using the browser on main screen click the small (i) in the button right and 'add password'.
-
-* Workshop / Colloquia 
-Recommendation: Zoom meetings
-
-https://lmu-munich.zoom.us/
-
-Up to 300 participants
-
-Regulations apply.[fn:2]
-
-** Features
-- Free through LMU (or a private account up to 100 participants).
-- Proprietary software.
-- Server location unrestricted.
-- Requires installation of App (Windows, Mac, Linux, iOS, Android) or browser-extension.
-- No Account required (except host).
-- Video/audio conferencing, screen sharing, whiteboard.
-- Moderating: mutings users, chat.
-- Security: passwords for meetings, waiting room for new participants to prevent 'zoom bombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
-- Scheduling of events
-
-** Recommendations:
-- Always set a password for your meeting! Share the password through external channels (like mail).
-The LMU IT in addition recommends the following settings for meetings:[fn:3]
-- Deactivate file transfer
-- Deactivate participant feedback function 
-- Allow virtual background
-
-** Using Zoom's whiteboard function with a tablet
-
-
-* Seminar / Classroom
-Recommendation: Zoom meetings or Zoom webinars.
-
-https://lmu-munich.zoom.us/
-
-Up to 300 participants
-
-** Features (meeting)
-Just as described above.
-
-As in the case of a presentation, the classroom works well as a zoom meeting, however, depending on the number of participants, a bit more features might be helpful, to avoid disturbances during the class. In particular, you can disable participants to share their screen, or share video or audio at all. Communication can proceed through the chat function or after  
-** Features (webinars)
-- Quite expensive, only limited licenses through LMU. If we have need for it, we can apply for it at the LMU IT.
-- More geared towards teacher-centered teaching than meetings.
-- Moderating: muting users, chat, 'raising hand', only selected participants ('panelists') can share screen, video. Everyone can share audio, if allowed. Host and moderator can be distinct.
-
-* Lectures
-Recommendation: VideoOnline or LMUCast
-
-https://videoonline.edu.lmu.de, https://cast.itunes.uni-muenchen.de/#/home
-
-Here, lectures are prerecorded, and the students can follow them at home, with additional interactions through message boards etc. The LMU offers an optional service to film the lectures in a lecture hall. If there is any need for this type of teaching, I'm happy to assist in coordinating with the LMU.
-
-* FAQ
-** Why these and not alternatives? Google Meet, Skype etc.
-The LMU IT has expressed but did not specify concerns with Skype and Facetime for privacy reasons.[fn:4] The wording makes it sound like the use of these systems for teaching is prohibited. I wonder what makes Zoom a better tool than Skype or Facetime, privacy-wise.
-
-Adobe Connect (as per LMU via DNF Conf) requires ~Adobe Flash Player~! lol.
-** Aren't there security concerns with Zoom?
-There are, and it's important to stay on top of things. At the moment, I think as long as some precautions are met (like setting a password for your meeting), the benefits outweigh the risks involved. For a review, see [[https://www.cs.columbia.edu/~smb/blog/2020-04/2020-04-06.html][Steven Bellovin (Columbia) write about this]]. See [[https://blogs.harvard.edu/doc/2020/03/27/zoom][Doc Searls]] for a critical stance on some of Zoom's privacy issues. 
-
-* TODO Describe the graphical tablet and how to install on macOS 
-* TODO Evaluate need for webinars 
 
 * Footnotes
 
-[fn:1] Or for the technically minded, post a pull request for this repository.
+[fn:1] Or for the technically minded, post a pull request for [[https://github.com/conradfriedrich/remote-philosophy][this repository]].
 
-[fn:2] https://www.it-servicedesk.uni-muenchen.de/it-angebote/zoom/nutzung_datenschutz/index.html
+[fn:2] https://www.itg.uni-muenchen.de/service/zoom/index.html
 
-[fn:3] https://www.itg.uni-muenchen.de/service/zoom/index.html
+[fn:3] https://www.it-servicedesk.uni-muenchen.de/it-angebote/zoom/nutzung_datenschutz/index.html
 
-[fn:4] https://www.itg.uni-muenchen.de/service/zoom/index.html
