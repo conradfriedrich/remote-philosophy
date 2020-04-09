@@ -21,7 +21,7 @@ To start using Zoom, follow the link above and login with your lmu credentials. 
 ** TODO Workout advantages of LMU account.
 
 ** Using Zoom: Example
-Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software. In a Zoom meeting, choose 'Share Screen' and choose your presentation software in the following dialogue (for example Preview for slides in pdf format on macOS). Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it has it (e.g. Preview for macOS offers annotations). With a mouse, this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~ at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help. It's probably a good idea to familiarize yourself with these features a bit before starting your class.
+Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software. In a Zoom meeting, choose 'Share Screen' and choose your presentation software in the following dialogue (for example Preview for slides in pdf format on macOS). Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it has it (e.g. Preview for macOS offers annotations). With a mouse, this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~[fn:4] at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help. It's probably a good idea to familiarize yourself with these features a bit before starting your class.
 
 ** Features
 - Free through LMU.
@@ -30,7 +30,7 @@ Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5
 - Scheduling of events
 - Video/audio conferencing, screen sharing (e.g. for powerpoints), whiteboard.
 - Moderating: mutings users, 'raising hand' feature, chat.
-- Security: passwords for meetings, waiting room for new participants to prevent 'zoom bombing', general data privacy concerns because of lax US laws, no end-to-end-decryption.
+- Security: passwords for meetings, waiting room for new participants to prevent 'zoom bombing', general data privacy concerns (see below), no end-to-end-decryption.
 - Server location undisclosed
 - Proprietary software.
 
@@ -58,7 +58,7 @@ The LMU IT has expressed but did not specify concerns with Skype and Facetime fo
 |-----------------+-----------------------------------------------|
 | Jitsi Meet      | Recommended                                   |
 | Zoom            | Recommended                                   |
-| Adobe Connect   | Recommended[fn:4]                             |
+| Adobe Connect   | Recommended[fn:5]                             |
 | Microsoft Teams | Currently in evaluation                       |
 | Skype           | Explicitly Disallowed                         |
 | Facetime        | Explicitly Disallowed                         |
@@ -108,4 +108,6 @@ Recommended (by LMU IT) number of participants up to 15
 
 [fn:3] https://www.it-servicedesk.uni-muenchen.de/it-angebote/zoom/nutzung_datenschutz/index.html
 
-[fn:4] ~Adobe Connect~ requires ~Adobe Flash Player~, which is outdated.
+[fn:4] Download the drivers at https://www.xp-pen.de/download-244.html.
+
+[fn:5] ~Adobe Connect~ requires ~Adobe Flash Player~, which is outdated.
