@@ -16,12 +16,10 @@ Regulations apply.[fn:3]
 
 For almost all use cases, we recommend using Zoom meetings. It promises to be reliable, easy-to-use, and to have enough features to accommodate most academic needs. Using a one-stop solution comes with the additional benefit that e.g. students only have be familiar with one software package in order to take part in the classes. 
 
-To start using Zoom, follow the link above and login with your lmu credentials. You'll be able to schedule and start meetings as well as change your settings there. The Zoom account through LMU has a couple of advantages over the free 'basic' Zoom account. 
-
-** TODO Workout advantages of LMU account.
+To start using Zoom, follow the link above and log in with your lmu credentials. You'll be able to schedule and start meetings as well as change your settings there. The Zoom account through LMU has a couple of advantages over the free 'basic' Zoom account. For example, the limit of 40 minutes per session is lifted. In addition, the limit on participants is raised.
 
 ** Using Zoom: Example
-Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software. In a Zoom meeting, choose 'Share Screen' and choose your presentation software in the following dialogue (for example Preview for slides in pdf format on macOS). Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it has it (e.g. Preview for macOS offers annotations). With a mouse, this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~[fn:4] at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help. It's probably a good idea to familiarize yourself with these features a bit before starting your class.
+Let's consider a use case similar to [[https://www.youtube.com/watch?v=HCo5ZX0G5ls][this video by Eric Pacuit]]. We'd like to show a presentation and annotate the slides by hand. To do so, open the slides you want to present in your favorite software (e.g. Preview on macOS). In a Zoom meeting, select 'Share Screen' and choose your presentation software in the following dialogue. Participants can now follow the slides of your presentation. In the Zoom toolbar, you can choose 'Annotate' and then 'Draw' to annotate your slides with your input device. Alternatively, you can use the annotation feature of your presentation software, if it provides such (e.g. Preview offers annotations). With a mouse this works tolerable, but you might achieve better results with a graphic tablet that simulates writing with pen and paper digitally. We bought a small batch of ~XP-Pen Star G640~[fn:4] at the MCMP if you'd like to use one. If you need assistance setting it up, we're happy to help. It's probably a good idea to familiarize yourself with these features a bit before starting your class.
 
 ** Features
 - Free through LMU.
@@ -98,7 +96,7 @@ Recommended (by LMU IT) number of participants up to 15
 
 ** Recommendations
 - Mute yourself with ~M~ and unmute temporarily by holding ~SPACE~. (Push to talk - decreases noise levels during the call)
-- Set a password! Using the browser on main screen click the small (i) in the button right and 'add password'.
+- Set a password! Using the browser on main screen, click the small (i) in the bottom right and 'add password'.
 
 * Footnotes
 
